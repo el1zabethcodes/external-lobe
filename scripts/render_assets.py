@@ -146,7 +146,7 @@ async def render_run(
     )
     await harness.run(task, problem_type=PROBLEM_TYPE)
 
-    svg = console.export_svg(title="adhd-harness | " + gif_title)
+    svg = console.export_svg(title="external-lobe | " + gif_title)
     (IMG_DIR / svg_name).write_text(svg, encoding="utf-8")
     print(f"  wrote {svg_name}: {(IMG_DIR / svg_name).stat().st_size // 1024} KB")
     make_gif(reporter.lines, IMG_DIR / gif_name, gif_title)

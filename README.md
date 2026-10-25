@@ -1,6 +1,6 @@
 <div align="center">
 
-# adhd-harness
+# external-lobe
 
 **A multi-agent, self-improving LLM harness: a Worker that acts, a Critic that
 checks, a Reflector that learns — and a lesson store that never forgets.**
